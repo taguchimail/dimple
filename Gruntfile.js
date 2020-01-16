@@ -98,7 +98,7 @@ module.exports = function (grunt) {
                 libPath: '/lib/',
                 distPath: '/dist/',
                 version: 'v<%= pkg.version %>',
-                d3version: 'v<%= pkg.buildDependencies.d3 %>',
+                d3version: 'latest.min',
                 scriptTag: '{scriptDependencies}',
                 header: "<!----------------------------------------------------------------->\n" +
                         "<!-- AUTOMATICALLY GENERATED CODE - PLEASE EDIT TEMPLATE INSTEAD -->\n" +
